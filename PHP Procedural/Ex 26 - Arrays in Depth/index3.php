@@ -13,7 +13,7 @@
         $arr1 = array("Kasun","Namal","Sunil");
 
         // Associative Arrays
-        $arr2 = array("first" => "Kasun", "last" => "Perera", "age" = 20);
+        $arr2 = array("first" => "Kasun", "last" => "Perera", "age" => 20);
 
         // Multidimensional Arrays
         $arr3 = array(array("Himesh", "Fernando"), "Kasun", "Rajitha");
