@@ -1,0 +1,85 @@
+/* -----Reset----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* -----Common----- */
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f7b757;
+}
+
+/* -----Contact Form----- */
+p{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #f53d3d;
+    font-size: 1rem;
+}
+
+.contact-form{
+    max-width: 504px;
+    border: 2px solid #f53d3d;
+    padding: 20px;
+}
+
+/* Inputs */
+input{
+    font-size: 1rem;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #000;
+    transition: all 0.3s ease-in;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 5px 10px;
+    resize: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000;
+    transition: all 0.3s ease-in;
+}
+
+input:hover,
+textarea:hover{
+    border: 1px #f53d3d solid;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-size: 0.9rem;
+}
+
+/* Button */
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #f53d3d;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in;
+}
+
+button:hover{
+    background-color: #000;
+}
